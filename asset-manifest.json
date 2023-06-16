@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/edtekbeta/static/css/main.2e68d8fa.css",
+    "main.js": "/edtekbeta/static/js/main.77bb836f.js",
+    "static/js/787.6c489ccb.chunk.js": "/edtekbeta/static/js/787.6c489ccb.chunk.js",
+    "index.html": "/edtekbeta/index.html",
+    "main.2e68d8fa.css.map": "/edtekbeta/static/css/main.2e68d8fa.css.map",
+    "main.77bb836f.js.map": "/edtekbeta/static/js/main.77bb836f.js.map",
+    "787.6c489ccb.chunk.js.map": "/edtekbeta/static/js/787.6c489ccb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e68d8fa.css",
+    "static/js/main.77bb836f.js"
+  ]
+}

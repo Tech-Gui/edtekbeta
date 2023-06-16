@@ -1,0 +1,314 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: rgb(15, 12, 31);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 10rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.gradient-text {
+  background: linear-gradient(to right, #ff00ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text1 {
+  background: linear-gradient(to right, #ff00ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-button {
+  background: linear-gradient(
+    to right,
+    #ff00ff,
+    #00ffff
+  ); /* Define the desired gradient colors */
+  -webkit-background-clip: text; /* Apply the gradient as background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent */
+}
+
+.circular-frame {
+  width: 150px; /* Adjust the size as per your requirement */
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ff00ff, #00ffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circular-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lift-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.lift-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+
+.lift-card1 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.lift-card1:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+
+.counting-card {
+  /* Add styles for the counting card if needed */
+}
+
+.counting-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counting-item {
+  text-align: center;
+}
+
+.counting-item h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.counting-item p {
+  font-size: 16px;
+}
+
+.services {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+}
+
+.logo {
+  width: 100px;
+}
+
+/* contact */
+
+#contact .contact-form,
+#contact .contact-thumb {
+  padding: 22px 32px 22px 32px;
+  min-height: 75vh;
+}
+
+/* #contact .contact-img {
+  background: url("../images/contact-img.jpg") no-repeat;
+  min-height: 75vh;
+} */
+
+#contact .contact-info {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#contact .form-control::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+#contact .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+#contact .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e3ae57;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #ffffff;
+}
+
+#contact input {
+  height: 45px;
+}
+
+#contact input[type="submit"] {
+  background: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #161616;
+  padding-bottom: 10px;
+}
+
+#contact input[type="submit"]:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#contact .fa {
+  padding-right: 10px;
+}
+
+.landing1 {
+  order: 1;
+  margin-top: 5rem;
+}
+
+.landing2 {
+  order: 2;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.counting-card {
+  width: 40%;
+}
+#clients {
+  width: 60%;
+}
+#contact1 {
+  width: 45%;
+}
+
+#projects {
+  margin-top: -17rem;
+}
+
+#projectHeader {
+  padding-bottom: 23rem;
+  padding-top: 4rem;
+}
+
+#projectImage {
+  width: 60%;
+}
+@media (max-width: 767px) {
+  .landing1 {
+    order: 1;
+  }
+
+  .landing2 {
+    order: 2;
+    display: none;
+  }
+  .counting-card {
+    width: 80%;
+  }
+  #stats {
+    width: 80%;
+  }
+
+  #clients {
+    width: 95%;
+  }
+  #contact1 {
+    width: 93%;
+  }
+
+  #whatsapp {
+    display: none;
+  }
+
+  #projects {
+    margin-top: -7rem;
+  }
+
+  #projectHeader {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+  }
+
+  #projectImage {
+    width: 80%;
+  }
+  .flipping-card {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.job {
+  color: #aaa;
+}
+
+.flipping-card {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border: 0px solid grey;
+  z-index: 99;
+  min-height: 42rem;
+  margin-bottom: 2rem;
+}
